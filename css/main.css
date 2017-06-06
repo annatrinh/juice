@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+nav {
+  background-color: gold;
+  height: 80px;
+}
+
+.logo {
+  color: white;
+  float: left;
+  font-size: 40px;
+  margin: 15px;
+}
+
+nav ul {
+  float: right;
+  margin-right: 30px;
+}
+
+nav li {
+  display: inline-block;
+  text-decoration: none;
+  padding: 15px;
+  margin-top: 15px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+nav li a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+input {
+  float: right;
+  width: 225px;
+  padding: 10px;
+  margin: 20px 30px 50px 20px;
+}
+
+.middle {
+  margin-top: 50px;
+}
+
+.lemon {
+  float: left;
+  width: 50%;
+}
+
+.lemon img {
+  height: 400px;
+}
+
+.juice {
+  float: left;
+  width: 50%;
+}
+
+.juice p {
+  font-size: 30px;
+  color: gold;
+}
+
+.juice span {
+  font-weight: bold;
+  color: #F3867D;
+}
+
+.juice span.tm {
+  font-size: 42px;
+  color: gold;
+}
+
+.buttons {
+  margin-top: 25px;
+  padding: 10px;
+  display: inline-block;
+}
+
+.juice div {
+  display: inline-block;
+}
+
+.buttons button {
+  padding: 12px 20px;
+  border: solid grey 1px;
+  background-color: #F3867D;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  display: inline-block;
+}
+
+footer {
+  height: 65px;
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+  background-color: gold;
+}
