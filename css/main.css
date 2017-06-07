@@ -39,11 +39,23 @@ nav li a:hover {
   font-size: 20px;
 }
 
-input {
+.bar div {
+  display: inline-block;
   float: right;
+}
+
+.search input {
+  /*position: relative;*/
   width: 225px;
   padding: 10px;
   margin: 20px 30px 50px 20px;
+}
+
+.fa-search {
+  position: absolute;
+  margin: 20px 30px 50px 20px;
+  padding: 11px 0 0 220px;
+  color: grey;
 }
 
 .middle {
@@ -57,6 +69,7 @@ input {
 
 .lemon img {
   height: 400px;
+  padding-left: 30px;
 }
 
 .juice {
@@ -67,6 +80,7 @@ input {
 .juice p {
   font-size: 30px;
   color: gold;
+  margin-left: 20px;
 }
 
 .juice span {
@@ -91,6 +105,7 @@ input {
 
 .buttons button {
   padding: 12px 20px;
+  margin-left: 20px;
   border: solid grey 1px;
   background-color: #F3867D;
   color: white;
