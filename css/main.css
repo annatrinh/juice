@@ -121,3 +121,56 @@ footer {
   position: absolute;
   background-color: gold;
 }
+
+@media (max-width: 1005px) {
+  .lemon img {
+    width: 95%;
+    height: 95%
+    position: relative;
+  }
+  .logo {
+    font-size: 20px;
+  }
+  .juice p {
+    font-size: 23px;
+  }
+}
+@media (max-width: 900px) {
+  nav li {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 850px) {
+  .lemon img {
+    width: 70%;
+    height: 70%;
+    position: relative;
+  }
+  .juice span.tm {
+    font-size: 27px;
+  }
+  .juice p {
+    font-size: 15px;
+  }
+  nav ul a {
+    display: none;
+  }
+  .buttons button {
+    font-size: 8px;
+    padding: 6px 10px;
+  }
+}
+
+@media (max-width: 450px) {
+  .buttons button {
+    display: none;
+  }
+  .search input {
+    margin-top: 2px;
+  }
+  .fa-search {
+    position: absolute;
+    margin-top: 2px;
+  }
+}
